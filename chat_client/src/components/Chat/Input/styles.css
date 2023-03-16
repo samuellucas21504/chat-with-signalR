@@ -1,0 +1,31 @@
+.input-wrapper {
+    position: sticky;
+    background-color: #fff;
+    bottom: 0;
+    padding: 16px;
+}
+
+.input-message {
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+    padding: 5px;
+}
+
+.input-message::placeholder {
+    color:#dedede;
+    text-transform: uppercase;
+}
+
+.input-message:focus {
+    outline: 1px solid hsl(131, 100%, 50%);
+}
+
+.input-button {
+    border-radius: 50%;
+    padding: 10px 5px;
+    border: none;
+    margin: 0 5px;
+    background-color: hsl(131, 100%, 50%);
+    color: #fff;
+    cursor: pointer;
+}
